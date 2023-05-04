@@ -1,4 +1,4 @@
-21572758317881681
+21576121284510214
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -82922,6 +82922,13 @@ Connector
 3
 3
 SamacSys_Parts
+1935776
+1935776-1
+Connector
+0
+2
+2
+SamacSys_Parts
 FUSC6126X270N
 2410
 Fuse
@@ -82935,6 +82942,13 @@ Integrated Circuit
 0
 8
 8
+SamacSys_Parts
+TEP1602415WIR
+TEP 160WIR Series
+Power Supply
+0
+14
+14
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf

@@ -494,6 +494,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 429a810a-35f6-4c48-8842-dfd73d4b1bd3)
   )
+  (text "Resistors need to be high power, that's why TO-220-2 resistors are used"
+    (at 167.005 69.85 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 721aba88-f74d-4568-92fa-5bf04701bf7c)
+  )
 
   (label "Vin" (at 93.345 80.01 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -526,32 +531,6 @@
   (label "shielding" (at 179.705 97.155 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid dbede8b6-7a7d-4e6d-9ad4-445be8426a56)
-  )
-
-  (symbol (lib_id "Device:R") (at 179.07 82.55 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0451814f-500d-4f0a-8ed5-3a4255ed0428)
-    (property "Reference" "R1" (at 183.515 81.28 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "R" (at 179.07 82.55 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 179.07 84.328 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 179.07 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a0b879ee-8dab-4062-a8f2-7a5cba757676))
-    (pin "2" (uuid 20216a9d-5f05-49fb-a77d-cac2afb5f520))
-    (instances
-      (project "traco_breakout_minimal"
-        (path "/03c49ecf-f784-4d12-9bd0-ecdf30efb896"
-          (reference "R1") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "SamacSys_Parts:1935776") (at 88.265 86.36 180) (unit 1)
@@ -596,6 +575,32 @@
       (project "traco_breakout_minimal"
         (path "/03c49ecf-f784-4d12-9bd0-ecdf30efb896"
           (reference "J1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 179.07 82.55 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 13ed1508-1b69-4604-ab37-a3e2f759cf3e)
+    (property "Reference" "R1" (at 183.515 81.28 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "R" (at 179.07 82.55 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical" (at 179.07 84.328 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 179.07 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 735102aa-5d22-4ed9-9391-ee0d218d0508))
+    (pin "2" (uuid 3588eaba-23b6-4038-a17f-d392e11634b0))
+    (instances
+      (project "traco_breakout_minimal"
+        (path "/03c49ecf-f784-4d12-9bd0-ecdf30efb896"
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -886,7 +891,7 @@
     (property "Value" "R" (at 179.07 87.63 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 179.07 89.408 90)
+    (property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical" (at 179.07 89.408 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 179.07 87.63 0)
